@@ -59,21 +59,24 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃QUEEN_ANITA_V2 SESSION IS 
+┏━━━━━━━━━━⚡⚡
+┃𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡ SESSION IS 
 ┃SUCCESSFULLY
-┃CONNECTED ✅🔥
+┃CONNECTED 💀💀
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DAVID CYRIL 𖥘
+ Creator = 𖥘 MAXWELL OP 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
+ OWNER = https://wa.me/qr/MY2JIUSBX5FJD1
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/deecee_x 👈
+I'M THE HONOURED ONE 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 David Cyril*
-_____________________________________
+𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●
+𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●
+𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●
+
+09120730021
+______________________________
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
